@@ -1,0 +1,22 @@
+{
+  "name": "baris-wanschers-blog",
+  "version": "0.0.9",
+  "description": "A node.js app to display the contents of my blog",
+  "main": "app.js",
+  "author": "Baris Wanschers",
+  "license": "GPL",
+  "dependencies": {
+    "express" : "~4.8.4",
+    "body-parser" : "1.8.1",
+    "request" : "~2.42.0",
+    "gulp": "~3.8.0",
+    "gulp-dust" : "~1.0.1",
+    "gulp-wrap" : "0.3.0",
+    "dustjs-linkedin" : "~2.4.1",
+    "redis" : "~0.12.1"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/BarisW/npm-blog"
+  }
+}
